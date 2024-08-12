@@ -1,0 +1,148 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+
+    margin: 0;
+    font-size: 24px;
+}
+
+header .logo :hover{
+
+    color: rgb(236, 135, 4);
+}
+
+.search-bar {
+    display: flex;
+    width: 50%;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 5px;
+    height: 40px ;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #286e6e;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar button:hover{
+
+    background: rgb(240, 163, 62);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
+}
+
+div.product-grid{
+
+    background-color: #286e6e;
+}
+
+div.product-grid:hover{
+
+    background-color: #07dbdb;
+    font-size: larger;
+}
+
+.product {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 290px;
+    height: 300px;
+  
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.buy-now-btn {
+    background-color: #ff5722;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #e64a19;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
